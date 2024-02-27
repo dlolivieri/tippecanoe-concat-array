@@ -12,7 +12,7 @@ func main() {
 	args := os.Args
 
 	if len(args) < 2 {
-		panic("fieldName is required. Usage: ./tippecanone-concat-array <fieldName>")
+		panic("fieldName is required. Usage: ./tippecanone-concat-distinct <fieldName>")
 	}
 
 	fieldName := args[1]
