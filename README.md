@@ -1,6 +1,6 @@
-#tippecanoe-concat-distinct
+# tippecanoe-concat-distinct
 
-A simple program intended to be used with https://github.com/felt/tippecanoe.
+A simple program intended to be used with [tippecanoe](https://github.com/felt/tippecanoe).
 
 Reads from `std in`, modifies the geo json by removing any duplicates from the value of the target field passed to the program, and writes the modified geo json back to `std out`.
 
